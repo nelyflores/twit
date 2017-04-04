@@ -17,7 +17,7 @@
 		console.log(comentario);
 		console.log(autor);
 		var li=document.createElement("p");
-	  li.innerHTML= comentario+ "<br>" + "por: "+ autor;
+	    li.innerHTML= comentario+ "<br>" + "por: "+ autor;
 		document.getElementById("mensajeFinal").appendChild(li);
 		console.log(comentario);
 		console.log(autor);
